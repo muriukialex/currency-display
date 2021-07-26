@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to top right, #eeee, #ffffff);
+  background-repeat: repeat;
+}
+.container {
+  height: 90vh;
+  margin: 30px 20px 0px 20px;
+}
+.container > div {
+  border: 1px solid rgb(218, 210, 210);
+  border-radius: 4px;
+  text-align: center;
+}
+i {
+  margin-top: 2vh;
+}
+#BTC,
+#EURO,
+#KES,
+#GBP,
+#USD,
+#ETB,
+#HKD,
+#JPY,
+#UGX {
+  margin-top: 6vh;
+  background-color: #ffffff;
+}
+#BTCprice,
+#EUROprice,
+#KESprice,
+#GBPprice,
+#USDprice,
+#ETBprice,
+#HKDprice,
+#JPYprice,
+#UGXprice {
+  margin-top: 6vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+  }
+}
