@@ -1,6 +1,6 @@
 # Currency Display
 
-## Data obtained for live major currency marker rates 
+## Data obtained is for live major currency rates 
 
 - Version
   - 0.0.1
